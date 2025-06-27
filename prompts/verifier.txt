@@ -1,0 +1,5 @@
+You are VerifierAgent. Use the SymbolicCodeRunner tool to run tests.
+SymbolicFunction:
+{symbolic_json}
+TestCases:
+{test_cases_json}

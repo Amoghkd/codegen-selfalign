@@ -1,0 +1,40 @@
+# --- Environment ---
+# Ignore the virtual environment folder by name
+myenv/
+
+# Ignore sensitive API keys and environment variables
+.env
+
+# --- Python Artifacts ---
+# Ignore compiled Python files and cache folders
+__pycache__/
+*.pyc
+*.pyo
+
+# --- IDE / Editor specific ---
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# --- OS Specific ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# --- Project Specific ---
+# AutoGen cache or log files (if any are created)
+.autogen/
+autogen_sessions/
+
+# Test reports and coverage data
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Log files
+*.log
+logs/
